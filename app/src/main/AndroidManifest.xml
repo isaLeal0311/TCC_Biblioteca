@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TCC_Biblioteca">
-        <activity android:name=".InformacoesActivity"></activity>
+        <activity
+            android:name=".MenuActivity"
+            android:exported="true"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.TCC_Biblioteca.NoActionBar" />
+        <activity android:name=".InformacoesActivity" />
         <activity android:name=".OutrosNDActivity" />
         <activity android:name=".SciFiActivity" />
         <activity android:name=".CronicasActivity" />
