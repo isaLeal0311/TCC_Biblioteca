@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NaoDidaticoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="@string/txt_titulo_nao_didatico"
+                android:textSize="40dp" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/ly_linha1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/Col_1_L1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/btn_fantasia_nao_didatico"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon_fantasia"
+                        android:layout_marginLeft="5dp"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_fantasia_nao_didatico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/txt_fantasia"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="5dp"/>
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/Col_2_L1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/btn_hq_nao_didatico"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon_hq"
+                        android:layout_marginLeft="10dp"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_hq_nao_didatico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/txt_hq"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="10dp"/>
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/Col_3_L1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/btn_romance_nao_didatico"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon_romance"
+                        android:layout_marginLeft="4dp"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_romance_nao_didatico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/txt_romance"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="4dp"/>
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/ly_linha2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/Col_1_L2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/btn_comedia_nao_didatico"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon_comedia" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_comedia_nao_didatico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/txt_comedia"
+                        android:textSize="25sp" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/Col_2_L2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/btn_conto_nao_didatico"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon_contos" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_conto_nao_didatico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/txt_contos"
+                        android:textSize="25sp" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/Col_3_L2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/btn_poesia_nao_didatico"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon_poesia" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_poesia_nao_didatico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/txt_poesias"
+                        android:textSize="25sp" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/ly_linha3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/Col_1_L3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/btn_cronicas_nao_didatico"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon_cronicas" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_cronicas_nao_didatico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/txt_cronicas"
+                        android:textSize="25sp" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/Col_2_L3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/btn_fic_cientifica_nao_didatico"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon_ficcao_cientifica" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_sci_fi_nao_didatico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/txt_sci_fi"
+                        android:textSize="25sp" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/Col_3_L3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/btn_outros_nao_didatico"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon_outros" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/txt_outros_nao_didatico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/txt_outros_nd"
+                        android:textSize="25sp" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>
